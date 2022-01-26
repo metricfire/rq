@@ -539,8 +539,8 @@ class Worker:
         if self.pubsub_thread:
             self.log.info('Unsubscribing from channel %s', self.pubsub_channel_name)
             self.pubsub_thread.stop()
-            self.pubsub_thread.join()
             self.pubsub.unsubscribe()
+            self.pubsub_thread.join()
             self.pubsub.close()
 
     def reorder_queues(self, reference_queue):

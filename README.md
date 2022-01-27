@@ -1,3 +1,8 @@
+## It is a fork from original RQ library https://github.com/rq. It was created to deal with the following issue https://github.com/rq/rq/issues/1613.
+
+If you find RQ useful, please consider supporting this project via [Tidelift](https://tidelift.com/subscription/pkg/pypi-rq?utm_source=pypi-rq&utm_medium=referral&utm_campaign=readme).
+
+
 RQ (_Redis Queue_) is a simple Python library for queueing jobs and processing
 them in the background with workers.  It is backed by Redis and it is designed
 to have a low barrier to entry.  It should be integrated in your web stack
